@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <title>ARCHLINE | Профессиональные архитектурные решения</title>
+    <title>By Rekonull</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -13,7 +13,7 @@
             --secondary: #406882;
             --accent: #6998AB;
         }
-        /* Адаптивная шапка */
+        
         .navbar {
             backdrop-filter: blur(10px);
             background: rgba(255, 255, 255, 0.85) !important;
@@ -71,7 +71,6 @@
     }
 }
 
-        /* Исправление адаптивности */
 @media (max-width: 1200px) {
     .hero h1 { font-size: 2.8rem; }
     .project-card { margin-bottom: 1.5rem; }
@@ -79,14 +78,14 @@
 
 @media (max-width: 991.98px) {
     .navbar-collapse {
-        top: 60px; /* Было 70px */
-        left: 10px; /* Было 15px */
-        right: 10px; /* Было 15px */
-        max-height: calc(100vh - 70px); /* Добавить */
+        top: 60px; 
+        left: 10px; 
+        right: 10px; 
+        max-height: calc(100vh - 70px); 
     }
 
     body.menu-open {
-        padding-top: 60px; /* Было 70px */
+        padding-top: 60px; 
     }
 }
 
@@ -104,7 +103,7 @@
     footer .col-md-4 { margin-bottom: 2rem; }
 }
 
-/* Общие исправления */
+
 .container-xl { max-width: 98%; }
 .img-fluid { max-width: 100%; height: auto; }
 .row { margin-right: -8px; margin-left: -8px; }
@@ -152,7 +151,7 @@
     </style>
 </head>
 <body>
-    <!-- Адаптивная шапка -->
+    
     <nav class="navbar navbar-expand-lg fixed-top py-3">
         <div class="container-xl">
             <a class="navbar-brand fs-3 fw-bold" href="#">
@@ -172,7 +171,7 @@
         </div>
     </nav>
 
-    <!-- Герой-секция -->
+
     <section id="hero" class="vh-100 d-flex align-items-center">
         <div class="container-xl">
             <div class="row g-5 align-items-center">
@@ -193,7 +192,7 @@
         </div>
     </section>
 
-        <!-- Проекты с 3D эффектом -->
+        
         <section id="projects" class="py-5 bg-light">
             <div class="container-xl py-5">
                 <div class="text-center mb-5" data-aos="fade-up">
@@ -206,7 +205,7 @@
                 </div>
                 
                 <div class="row g-4">
-                    <!-- Проект 1 -->
+                    
                     <div class="col-md-6 col-lg-4" data-aos="zoom-in">
                         <div class="project-card card h-100 border-0 shadow-hover">
                             <div class="card-img-wrap overflow-hidden">
@@ -223,14 +222,14 @@
                                     <i class="fas fa-info-circle me-2"></i>Подробнее
                                 </button>
                             </div>
-                            <!-- Скрытый контент -->
+                           
                             <div class="card-details">
-                                <!-- Контент будет добавлен через JS -->
+                                
                             </div>
                         </div>
                     </div>
                     
-                    <!-- Проект 2 -->
+                    
                     <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
                         <div class="project-card card h-100 border-0 shadow-hover">
                             <div class="card-img-wrap overflow-hidden">
@@ -250,7 +249,7 @@
                         </div>
                     </div>
     
-                    <!-- Проект 3 -->
+                  
                     <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
                         <div class="project-card card h-100 border-0 shadow-hover">
                             <div class="card-img-wrap overflow-hidden">
@@ -273,7 +272,6 @@
             </div>
         </section>
     
-        <!-- Процесс работы -->
         <section id="process" class="py-5">
             <div class="container-xl py-5">
                 <div class="text-center mb-5" data-aos="fade-up">
@@ -282,7 +280,7 @@
                 </div>
                 
                 <div class="row g-4 process-steps">
-                    <!-- Этап 1 -->
+                   
                     <div class="col-md-6 col-lg-4" data-aos="fade-up">
                         <div class="card h-100 border-0 p-4 shadow-sm">
                             <div class="step-number">01</div>
@@ -300,7 +298,6 @@
                         </div>
                     </div>
     
-                    <!-- Этап 2 -->
                     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="card h-100 border-0 p-4 shadow-sm">
                             <div class="step-number">02</div>
@@ -318,7 +315,7 @@
                         </div>
                     </div>
     
-                    <!-- Этап 3 -->
+                    
                     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="card h-100 border-0 p-4 shadow-sm">
                             <div class="step-number">03</div>
@@ -339,12 +336,12 @@
             </div>
         </section>
 
-            <!-- Услуги -->
+          
             <section id="services" class="services-section">
                 <div class="container">
                     <h2 class="section-title text-center mb-5">Наши услуги</h2>
                     <div class="row g-4">
-                        <!-- Услуга 1 -->
+                        
                         <div class="col-md-6 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
@@ -361,7 +358,7 @@
                             </div>
                         </div>
             
-                        <!-- Услуга 2 -->
+                      
                         <div class="col-md-6 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
@@ -378,7 +375,7 @@
                             </div>
                         </div>
             
-                        <!-- Услуга 3 -->
+                        
                         <div class="col-md-6 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
@@ -398,7 +395,6 @@
                 </div>
             </section>
 
-    <!-- Контактная форма -->
     <section id="contact" class="py-5">
         <div class="container-xl py-5">
             <div class="row g-5 align-items-center">
@@ -447,7 +443,7 @@
         </div>
     </section>
 
-    <!-- Футер -->
+   
     <footer class="bg-black text-white py-5">
         <div class="container-xl">
             <div class="row g-5">
@@ -486,7 +482,7 @@
             
             <div class="row">
                 <div class="col-md-6">
-                    <p class="mb-0 small">&copy; 2024 ARCHLINE. Все права защищены</p>
+                    <p class="mb-0 small">&copy; 2025 ARCHLINE. Все права защищены</p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <a href="#" class="text-muted small me-3">Политика конфиденциальности</a>
@@ -496,11 +492,11 @@
         </div>
     </footer>
 
-    <!-- Скрипты -->
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        // Инициализация AOS
+     
         AOS.init({
             offset: 20,
             duration: 800,
@@ -508,7 +504,7 @@
             mirror: false
         });
 
-        // Анимация карточек проектов
+       
         document.querySelectorAll('.btn-details').forEach(btn => {
             btn.addEventListener('click', function() {
                 const card = this.closest('.project-card');
@@ -517,7 +513,7 @@
             });
         });
 
-        // Валидация формы
+       
         (function () {
             'use strict'
             const forms = document.querySelectorAll('.needs-validation')
@@ -532,7 +528,7 @@
             })
         })();
 
-        // Плавный скролл
+      
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -542,7 +538,7 @@
             });
         });
 
-        // Фиксация шапки
+       
         window.addEventListener('scroll', () => {
             const navbar = document.querySelector('.navbar');
             window.scrollY > 100 ? navbar.classList.add('scrolled') : navbar.classList.remove('scrolled');
@@ -563,19 +559,19 @@
     });
 });
 
-// Плавное открытие/закрытие меню
+
 document.querySelector('.navbar-toggler').addEventListener('click', function() {
     document.body.classList.toggle('menu-open');
     document.querySelector('.navbar-collapse').classList.toggle('show');
 });
 
-// Закрытие при скролле - ЗАМЕНИТЬ НА:
+
 window.addEventListener('scroll', function() {
     if (document.body.classList.contains('menu-open')) {
         document.body.classList.remove('menu-open');
         document.querySelector('.navbar-collapse').classList.remove('show');
     }
-    // Добавить это:
+ 
     const navbar = document.querySelector('.navbar');
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     navbar.style.transform = scrollTop > 100 ? 'none' : 'translateY(0)';
